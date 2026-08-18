@@ -26,45 +26,21 @@ Each project generally includes:
 
 | ID | Project | Status | Skills / Technologies |
 |---|---|---|---|
-| **FWP-001** | **OPNsense Home Firewall** | 🚧 In Progress | OPNsense, TCP/IP, Routing, DHCP, DNS, Firewall Rules, VLANs, Network Security, Troubleshooting |
+| **FWP-001** | **[OPNsense Home Firewall](https://github.com/tiwaolagbaju/FWP-001-opnsense-home-firewall)** | ✅ Complete | OPNsense, TCP/IP, IPv4/IPv6, DHCP, DNS, Firewall Policy, Network Security, Troubleshooting |
 | FWP-002 | Coming Soon | ⏳ Planned | TBD |
 | FWP-003 | Coming Soon | ⏳ Planned | TBD |
 
 ## FWP-001 — OPNsense Home Firewall
 
-### Project Goal
+**Status:** ✅ Complete
 
-Replace my Verizon FiOS CR1000A router with a custom **OPNsense-based router and firewall** while maintaining reliable internet connectivity and gaining greater visibility and control over my home network.
+Replaced my ISP-provided router with a dedicated OPNsense firewall/router running on an x86-64 mini PC. The project covered isolated lab validation, direct ISP cutover, DNS and firewall hardening, native IPv4/IPv6, MFA-protected administration, encrypted upstream DNS, DNS-bypass controls, performance benchmarking, external WAN exposure testing, rollback planning, and real-world troubleshooting.
 
-### Starting Network
+**Result:** OPNsense is now the production edge router/firewall while maintaining near-gigabit performance with no meaningful latency increase. Wired and wireless clients passed final production validation, and an external IPv4 service-port scan found no open TCP ports in the tested range.
 
-```text
-Verizon Fiber
-     |
-     v
-    ONT
-     |
-     | Ethernet
-     v
-CR1000A WAN
-```
+**Skills:** `OPNsense` · `TCP/IP` · `IPv4/IPv6` · `DHCP` · `DNS` · `DNSSEC` · `DNS-over-TLS` · `Firewall Policy` · `Network Security` · `Performance Testing` · `Troubleshooting` · `Change/Rollback Planning`
 
-### Skills Being Demonstrated
-
-- Network architecture
-- TCP/IP networking
-- WAN and LAN configuration
-- Routing
-- DHCP
-- DNS
-- Firewall policy creation
-- VLAN design and segmentation
-- Network security
-- OPNsense administration
-- Troubleshooting
-- Technical documentation
-
-A dedicated repository for FWP-001 will contain the complete build documentation, diagrams, screenshots, sanitized configurations, testing results, and lessons learned.
+**[View the full FWP-001 project →](https://github.com/tiwaolagbaju/FWP-001-opnsense-home-firewall)**
 
 ## Areas I Plan to Explore
 
