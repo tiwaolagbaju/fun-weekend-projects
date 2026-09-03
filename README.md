@@ -13,7 +13,7 @@ I try to document more than just the finished result. When it adds value, I incl
 | Project | Status | What it demonstrates |
 |---|---|---|
 | **[FWP-001 — OPNsense Home Firewall](https://github.com/tiwaolagbaju/FWP-001-opnsense-home-firewall)** | ✅ Complete | Networking, IPv4/IPv6, DNS, firewall policy, security hardening, testing, troubleshooting |
-| **[FWP-002 — UPS Maintenance Bypass Training Simulator](https://criticalpowertraining.com/)** | 🧪 Public test build | Domain-driven software development, training design, interactive simulation, web development, security-conscious application design |
+| **[FWP-002 — UPS Maintenance Bypass Training Simulator](https://github.com/tiwaolagbaju/FWP-002-ups-training-simulator-portfolio)** | 🧪 Public test build | Domain-driven software development, training design, interactive simulation, web development, security-conscious application design |
 | **[FWP-003 — Cost-Optimized Local AI Server](https://github.com/tiwaolagbaju/FWP-003-local-ai-server)** | 🔧 In progress | Linux, local AI infrastructure, multi-GPU compute, hardware integration, benchmarking, cost/performance engineering |
 
 ## FWP-001 — OPNsense Home Firewall
@@ -38,6 +38,7 @@ The public version is a testing build. The underlying implementation and detaile
 
 **Skills:** `JavaScript` · `Web Development` · `Interactive Simulation` · `Technical Training` · `Application Security` · `Domain Modeling` · `AI-Assisted Development`
 
+[View the FWP-002 portfolio showcase →](https://github.com/tiwaolagbaju/FWP-002-ups-training-simulator-portfolio)  
 [Try the public test build →](https://criticalpowertraining.com/)
 
 ## FWP-003 — Cost-Optimized Local AI Server
